@@ -1,15 +1,23 @@
-
 <!DOCTYPE html>
+<html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Example</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.index.css %>">
 </head>
+
 <body>
+    <div>Hello, world!</div>
+    <img src="./assets/img/bey.jpg" />
 
-<h1>Numbers</h1>
-<ul id="numbers">
-</ul>
+    <h1>Numbers</h1>
+    <ul id="numbers">
+    </ul>
 
+    <script src="<%= htmlWebpackPlugin.files.chunks.index.entry %>">
+    </script>
 </body>
+
 </html>

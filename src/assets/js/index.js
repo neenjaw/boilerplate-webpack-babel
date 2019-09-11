@@ -1,3 +1,6 @@
+import '../css/style.css';
+import Bey from '../img/bey.jpg';
+
 import leftPad from './leftpad';
 
 const numbers = [6934, 23111, 23114, 1001, 211161];
